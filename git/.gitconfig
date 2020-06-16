@@ -1,0 +1,13 @@
+[user]
+	email = mark@kittyhawk.aero
+	name = Mark Cutler
+[push]
+	default = simple
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	dd = difftool --dir-diff

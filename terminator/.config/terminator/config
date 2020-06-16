@@ -1,0 +1,110 @@
+[global_config]                                                                                        
+  suppress_multiple_term_dialog = True                                                                 
+  title_transmit_bg_color = "#0bd7aa"                                                                  
+[keybindings]                                                                                          
+[layouts]                                                                                              
+  [[default]]                                                                                          
+    [[[child0]]]                                                                                       
+      fullscreen = False                                                                               
+      maximised = False                                                                                
+      order = 0                                                                                        
+      parent = ""                                                                                      
+      position = 857:24                                                                                
+      size = 1247, 1388                                                                                
+      title = /bin/bash                                                                                
+      type = Window                                                                                    
+    [[[child1]]]                                                                                       
+      order = 0                                                                                        
+      parent = child0                                                                                  
+      position = 1268                                                                                  
+      ratio = 0.915706051873                                                                           
+      type = VPaned                                                                                    
+    [[[child10]]]                                                                                      
+      order = 0                                                                                        
+      parent = child9                                                                                  
+      position = 307                                                                                   
+      ratio = 0.500807754443                                                                           
+      type = HPaned                                                                                    
+    [[[child13]]]                                                                                      
+      order = 1                                                                                        
+      parent = child9                                                                                  
+      position = 307                                                                                   
+      ratio = 0.498392282958                                                                           
+      type = HPaned                                                                                    
+    [[[child2]]]                                                                                       
+      order = 0                                                                                        
+      parent = child1                                                                                  
+      position = 612                                                                                   
+      ratio = 0.485015772871                                                                           
+      type = VPaned                                                                                    
+    [[[child3]]]                                                                                       
+      order = 0                                                                                        
+      parent = child2                                                                                  
+      position = 619                                                                                   
+      ratio = 0.498797113071                                                                           
+      type = HPaned                                                                                    
+    [[[child6]]]                                                                                       
+      order = 1                                                                                        
+      parent = child2                                                                                  
+      position = 619                                                                                   
+      ratio = 0.498797113071                                                                           
+      type = HPaned                                                                                    
+    [[[child9]]]                                                                                       
+      order = 1                                                                                        
+      parent = child1                                                                                  
+      position = 619                                                                                   
+      ratio = 0.498797113071                                                                           
+      type = HPaned                                                                                    
+    [[[terminal11]]]                                                                                   
+      order = 0                                                                                        
+      parent = child10                                                                                 
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = 8f9869fb-ccdc-4423-9cec-aa0b8bcc9a2a                                                      
+    [[[terminal12]]]                                                                                   
+      order = 1                                                                                        
+      parent = child10                                                                                 
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = c8a00bb0-dfdc-4c58-8ecc-9e4bd551112a                                                      
+    [[[terminal14]]]                                                                                   
+      order = 0                                                                                        
+      parent = child13                                                                                 
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = 096def8b-7dbe-494f-852e-c0fab154b827                                                      
+    [[[terminal15]]]
+      order = 1                                                                                        
+      parent = child3                                                                                  
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = 54603dc3-8b57-4f32-ad4c-3992959b6feb                                                      
+    [[[terminal7]]]                                                                                    
+      order = 0                                                                                        
+      parent = child6                                                                                  
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = a8dbca1d-fcd0-4beb-a49b-a73c89657f49                                                      
+    [[[terminal8]]]                                                                                    
+      order = 1                                                                                        
+      parent = child6                                                                                  
+      profile = default                                                                                
+      type = Terminal                                                                                  
+      uuid = 3f3d805d-1ccd-41ef-a19e-2c4b3fcd31f3                                                      
+  [[default_old]]                                                                                      
+    [[[child1]]]                                                                                       
+      parent = window0                                                                                 
+      type = Terminal                                                                                  
+    [[[window0]]]                                                                                      
+      parent = ""                                                                                      
+      type = Window                                                                                    
+[plugins]                                                                                              
+[profiles]                                                                                             
+  [[default]]                                                                                          
+    background_darkness = 0.81                                                                         
+    background_image = None                                                                            
+    background_type = transparent                                                                      
+    foreground_color = "#ffffff"                                                                       
+    scroll_on_output = False                                                                           
+    scrollback_infinite = True                                                                         
+    show_titlebar = False               
