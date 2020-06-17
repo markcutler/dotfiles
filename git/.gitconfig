@@ -10,4 +10,12 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	dd = difftool --dir-diff
+	dd = difftool --dir-diff --no-symlinks
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	trustExitCode = true
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	trustExitCode = true
