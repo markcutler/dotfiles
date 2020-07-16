@@ -124,3 +124,5 @@ parse_git_branch() {
 }
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\]$(parse_git_branch)\[\033[00m\]\$ '
 
+# source ros2
+source /opt/ros/foxy/setup.bash
