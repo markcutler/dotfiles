@@ -126,3 +126,9 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u@\h\[\033[00m\]:\
 
 # source ros2
 source /opt/ros/foxy/setup.bash
+
+# location for adding private additions that you don't want under version control
+if [ -f ~/.bash_private ]; then
+    . ~/.bash_private
+fi
+
