@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# from inside a repository delete all the *.orig files
+find . -name '*.orig' -delete 
