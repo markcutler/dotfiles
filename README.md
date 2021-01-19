@@ -1,7 +1,7 @@
 # Usage
 These dotfiles can be managed using [gnu stow](http://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 
-Checkout this repo in your home directory. Various dotfiles can be installed by executing the following in that directory: -
+Checkout this repo in your home directory. Various dotfiles can be installed by executing the following in that directory:
 ```bash
  ~/dotfiles:> stow terminator bash git
 ``` 
