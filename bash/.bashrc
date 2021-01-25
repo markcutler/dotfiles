@@ -124,6 +124,9 @@ parse_git_branch() {
 }
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\]$(parse_git_branch)\[\033[00m\]\$ '
 
+# some ubuntu versions don't include ~/.local/bin to PATH by default. adding here
+export PATH=$HOME/.local/bin:$PATH
+
 # location for adding private additions that you don't want under version control
 if [ -f ~/.bash_private ]; then
     . ~/.bash_private
