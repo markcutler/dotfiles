@@ -132,4 +132,5 @@ if [ -f ~/.bash_private ]; then
     . ~/.bash_private
 fi
 
-
+# Add ccache to the path to speed up incremental builds
+export PATH=/usr/lib/ccache:$PATH
