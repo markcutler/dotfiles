@@ -21,3 +21,5 @@
 	trustExitCode = true
 [mergetool]
 	keepBackup = false
+[core]
+	autocrlf = input
